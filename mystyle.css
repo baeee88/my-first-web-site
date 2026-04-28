@@ -1,0 +1,39 @@
+/* mystyle.css */
+h1 {
+    font-size:45px;
+    text-align:center;
+    border-bottom:1px solid gray;
+    margin:0px;
+    padding: 20px;
+
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+@media screen and (min-width: 610px) {
+    #grid ol {
+        border-right: 1px solid gray;
+        width: 100px;
+        margin: 0px;
+        padding: 20px;
+        display:block;
+    }
+}   
+@media screen and (max-width: 600px) {
+    #grid ol {
+        display:none;
+    }
+}
+
+body{
+    margin:0px;
+}
+.h1_no_deco {
+    text-align: left;
+    border-bottom: none;
+    padding:0px;
+}
+a {
+    text-decoration: none;
+}
