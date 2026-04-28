@@ -1,0 +1,13 @@
+<!--test.css-->
+@media  screen and (max-width:768px){
+    body {
+        background-color: blue;
+    } 
+}
+
+/* 화면 너비가 769px 이상인 기기에 적용 (데스크톱) */
+@media screen and (min-width:769px) {
+    body {
+        background-color: red;
+    }
+}
